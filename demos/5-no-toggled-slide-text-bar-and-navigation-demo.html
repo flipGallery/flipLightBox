@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>flipLightBox Multi Link Demo</title>
+<title>flipLightBox No Toggled Slide Text Bar and Navigation Demo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0;">
 <style type="text/css">body { text-align: center; } a { text-decoration: none; } img { margin: 1px; }</style>
 </head>
 <body>
-<h1>flipLightBox Multi Link Demo</h1>
+<h1>flipLightBox No Toggled Slide Text Bar and Navigation Demo</h1>
 
 <a href="x-demo-images/1.gif" class="flipLightBox">
 <img src="x-demo-images/1.gif" width="225" height="225" alt="Image 1" />
@@ -31,7 +31,15 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="../fliplightbox.min.js"></script>
-<script type="text/javascript">$('body').flipLightBox()</script>
+<script type="text/javascript">
 
+$('body').flipLightBox({
+    
+    lightbox_text_status: 0,
+    lightbox_navigation_status: 0
+    
+})
+
+</script>
 </body>
 </html>

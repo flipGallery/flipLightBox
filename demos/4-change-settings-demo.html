@@ -19,9 +19,6 @@ To find out which settings can be changed please check
 </head>
 <body>
 <h1>flipLightBox Change Settings Demo</h1>
-<div>
-
-<!--Please be sure all <a> tags have no other tags inbetween-->
 
 <a href="x-demo-images/1.gif" class="flipLightBox">
 <img src="x-demo-images/1.gif" width="225" height="225" alt="Image 1" />
@@ -43,10 +40,11 @@ To find out which settings can be changed please check
 <span><b>The Final LightBox</b> Text to accompany the last of the lighboxes</span>
 </a>
 
-</div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="../fliplightbox.min.js"></script>
-<script type="text/javascript">$('body').flipLightBox({
+<script type="text/javascript">
+
+$('body').flipLightBox({
     
     flip_mode: 0,
     lightbox_border_width: 5,
