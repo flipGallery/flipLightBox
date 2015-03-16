@@ -1,0 +1,49 @@
+<!--
+
+As shown below, don't use <a> tag for hyperlink. Use <span> tag
+only (wrapped within the text span).
+
+Use 'data-href' attribute name instead of the 'href' for
+hyperlink destination.
+
+If required, use 'data-target' attribute name instead of the
+'target'.
+
+Lastly, you can modify the link style in the settings
+(under TEXT SETTINGS > Picture/Lightbox Text Settings
+> lightbox_text_anchor_link_style)
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>flipLightBox Hyperlinks Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">body { text-align: center; } img { margin: 1px; } a { text-decoration: none; }</style>
+</head>
+<body>
+<h1>flipLightBox Hyperlinks Demo</h1>
+
+<a href="x-demo-images/1.gif" class="flipLightBox">
+<img src="x-demo-images/1.gif" width="225" height="225" alt="Image 1" />
+<span><b>LightBox</b> Text to accompany first lightbox image - <span data-href="3-list-demo.html">Link To Previous Demo</span></span>
+</a>
+
+<a href="x-demo-images/2.gif" class="flipLightBox">
+<img src="x-demo-images/2.gif" width="225" height="225" alt="Image 2" />
+<span><b>LightBox Image 2</b><br />Text to accompany 2nd lightbox image - <span data-href="http://flipgallery.net/fliplightbox.html" data-target="_blank">Open flipLightBox Website Page In New Tab</span></span>
+</a>
+
+<a href="x-demo-images/3.gif" class="flipLightBox">
+<img src="x-demo-images/3.gif" width="225" height="225" alt="Image 3" />
+<span><b>LightBox Three</b> Text to accompany the third lightbox image - <span data-href="5-change-settings-demo.html">Link To Next Demo</span></span>
+</a>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../fliplightbox.min.js"></script>
+<script type="text/javascript">$('body').flipLightBox()</script>
+
+</body>
+</html>
