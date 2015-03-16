@@ -1,6 +1,6 @@
 /*!
  * flipLightBox - Responsive Lightbox jQuery Plugin
- * version: 1.2.1
+ * version: 1.2.0
  * @requires jQuery v1.5 or later
  *
  * License at http://flipgallery.net/fliplightbox.html#download
