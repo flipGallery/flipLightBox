@@ -1,13 +1,13 @@
 /*!
  * flipLightBox - Responsive Lightbox jQuery Plugin
- * version: 1.1.0
+ * version: 1.2.0
  * @requires jQuery v1.5 or later
  *
  * License at http://flipgallery.net/fliplightbox.html#download
  * 
  * Example at http://flipgallery.net/fliplightbox.html
  *
- * Copyright 2014 flipGallery.net
+ * Copyright 2015 flipGallery.net
  *
  */
 
@@ -19,7 +19,7 @@ How To Set Up
 
 1) In your html document, before the closing </body> tag insert:
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="fliplightbox/fliplightbox.min.js"></script>
 <script type="text/javascript">$('body').flipLightBox()</script>
 
@@ -27,7 +27,7 @@ How To Set Up
 
 <a href="lightbox-image.jpg" class="flipLightBox">Link Text or Image<span>Optional Lightbox Text</span></a>
 
-Notice there is a '<span>' tag next to the image. Within this you can add optional text to accompany the lightbox image when opened.
+Notice there is a '<span>' tag next to the image. Within this you can add optional text to accompany the lightbox image when opened. Hyperlinks can also be added here (as shown in the demos).
 
 3) Download 'flipLightBox.zip', unzip and place the 'fliplightbox' folder into your website directory. You are now up and running!
 
