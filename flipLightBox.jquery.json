@@ -1,0 +1,43 @@
+{
+	"name": "flipLightBox",
+	"title": "flipLightBox - Responsive Lightbox jQuery Plugin",
+	"description": "A Responsive Lightbox that is extremely easy to implement and doesn't require any additional stylesheets, scripts or libraries. Its main feature is an optional flip effect as each lightbox image opens and closes. Another optional feature is a toggled slide text bar and navigation to accompany the lightbox images.",
+	"keywords": [
+		"flip",
+		"lightbox",
+		"responsive",
+		"image",
+		"photo",
+		"picture",
+		"animation",
+		"transition",
+		"stream",
+		"text",
+		"flipLightBox"
+		],
+	"version": "1.2.1",
+	"author": {
+		"name": "flipgallery.net",
+		"url": "http://flipgallery.net"
+	},
+	"maintainers": [
+	{
+		"name": "flipgallery.net",
+		"email": "info@flipgallery.net",
+		"url": "http://flipgallery.net"
+	}
+	],
+	"licenses": [
+	{
+		"type": "CC BY-NC 3.0",
+		"url": "http://creativecommons.org/licenses/by-nc/3.0/"
+	}
+	],
+	"homepage": "http://flipgallery.net/fliplightbox.html",
+	"demo":  "http://flipgallery.net/fliplightbox.html#demo",
+	"docs": "http://flipgallery.net/fliplightbox.html#set-up",
+	"download": "http://flipgallery.net/fliplightbox.html#download",
+	"dependencies": {
+		"jquery": ">=1.5"
+	}
+}
